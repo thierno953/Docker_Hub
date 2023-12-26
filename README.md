@@ -37,7 +37,7 @@ docker logs mongo
 **Run Mongo-Express Container**
 ```
 docker container run -d \
-    -p 8082:8082 \
+    -p 8081:8081 \
     -e ME_CONFIG_MONGODB_ADMINUSERNAME=root \
     -e ME_CONFIG_MONGODB_ADMINPASSWORD=password \
     -e ME_CONFIG_MONGODB_SERVER=mongo \
@@ -79,7 +79,7 @@ docker build -t web-server .
 **Run web-server Container**
 ```
 docker run -it -d \
-    -p 81:80 \
+    -p 80:80 \
     --network app-network \
     --name web-server \
     web-server
