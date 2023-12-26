@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Web Developer",
+    "email": "web@gmail.com",
+    "cell": "255.255.255.0"
+  },
+  {
+    "name": "DevOps",
+    "email": "devops@gmail.com",
+    "cell": "255.255.255.1"
+  },
+  {
+    "name": "Cybersecurity",
+    "email": "security@gmail.com",
+    "cell": "255.255.255.2"
+  }
+]
