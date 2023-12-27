@@ -112,17 +112,17 @@ docker scout --help
 
 **Command provides an overview of the vulnerabilities found in a given image and its base image**
 ```
-docker scout quickview thiernos/app-server:latest
+docker scout quickview thiernos/app-server:1.0
 ```
 
 **Command gives you a complete view of all the vulnerabilities in the image**
 ```
-docker scout cves thiernos/app-server:latest
+docker scout cves thiernos/app-server:1.0
 ```
 
 **This command supports several flags that lets you specify more precisely which vulnerabilities you're interested in, for example, by severity or package type**
 ```
-docker scout cves --format only-packages --only-vuln-packages --only-severity critical thiernos/app-server:latest
+docker scout cves --format only-packages --only-vuln-packages --only-severity critical thiernos/app-server:1.0
 
-docker scout recommendations thiernos/app-server:latest
+docker scout recommendations thiernos/app-server:1.0
 ```
