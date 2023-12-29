@@ -7,6 +7,12 @@ docker network create web-server --driver=bridge
 docker network ls
 ```
 
+**Create Volume**
+```
+docker volume create app-volume
+docker volume ls
+```
+
 **Pull Mongo image**
 ```
 docker pull mongo
@@ -50,12 +56,6 @@ docker container run -d \
 ```
 docker logs mongo-express
 ```
-
-**Create Volume**
-```
-docker volume create app-volume
-```
-
 
 **Build app-server Image**
 ```
