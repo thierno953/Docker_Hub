@@ -110,7 +110,7 @@ docker image build -t thiernos/app_server:1.0 .
 docker image push thiernos/app_server:1.0
 ```
 
-### Run Docker Compose
+### Run Docker Compose 
 
 ```
 docker-compose.yaml up -d
