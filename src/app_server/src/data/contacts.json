@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Foo Bar",
+      "email": "foobar@test.com",
+      "cell": "046-623-4567"
+    }, 
+    {
+      "name": "Biz Baz", 
+      "email": "bizbaz@test.com",
+      "cell": "046-623-5678"
+    },
+    {
+      "name": "Bing Bang",
+      "email": "bingbang@test.com",
+      "cell": "046-623-6789"
+    }
+  ]
